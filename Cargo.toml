@@ -1,0 +1,9 @@
+[package]
+name = "slint-ra-testcases"
+version = "0.1.0"
+edition = "2024"
+description = "Collection of slint! macro examples for rust-analyzer testing and profiling"
+license = "MIT"
+
+[dependencies]
+slint = "1.9"
