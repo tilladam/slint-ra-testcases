@@ -1,9 +1,9 @@
 [package]
 name = "stress_many_components"
 description = "Many components stress test"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
 
 [dependencies]
-slint.workspace = true
+slint = "1.9"

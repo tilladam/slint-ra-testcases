@@ -1,9 +1,9 @@
 [package]
 name = "size_medium"
 description = "Medium size example (~50 lines of Slint)"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
 
 [dependencies]
-slint.workspace = true
+slint = "1.9"

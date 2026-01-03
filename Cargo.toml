@@ -19,11 +19,3 @@ members = [
     "crates/stress_many_components",
     "crates/stress_many_properties",
 ]
-
-[workspace.package]
-version = "0.1.0"
-edition = "2024"
-license = "MIT"
-
-[workspace.dependencies]
-slint = "1.9"

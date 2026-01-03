@@ -1,9 +1,9 @@
 [package]
 name = "simple_ui"
 description = "Simple UI example with basic elements"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
 
 [dependencies]
-slint.workspace = true
+slint = "1.9"
