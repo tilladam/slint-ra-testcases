@@ -1,0 +1,9 @@
+[package]
+name = "minimal"
+description = "Minimal slint! macro example - baseline for performance comparison"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+slint.workspace = true

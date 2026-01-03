@@ -1,0 +1,9 @@
+[package]
+name = "size_xlarge"
+description = "Extra-large size example (~200+ lines of Slint)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+slint.workspace = true

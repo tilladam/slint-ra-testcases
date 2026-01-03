@@ -1,0 +1,9 @@
+[package]
+name = "globals"
+description = "Global singletons example"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+slint.workspace = true

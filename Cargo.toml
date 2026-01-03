@@ -1,9 +1,29 @@
-[package]
-name = "slint-ra-testcases"
+[workspace]
+resolver = "2"
+members = [
+    "crates/minimal",
+    "crates/simple_ui",
+    "crates/bindings",
+    "crates/callbacks",
+    "crates/functions",
+    "crates/globals",
+    "crates/layouts",
+    "crates/models",
+    "crates/std_widgets",
+    "crates/dash_identifiers",
+    "crates/size_small",
+    "crates/size_medium",
+    "crates/size_large",
+    "crates/size_xlarge",
+    "crates/stress_deep_nesting",
+    "crates/stress_many_components",
+    "crates/stress_many_properties",
+]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
-description = "Collection of slint! macro examples for rust-analyzer testing and profiling"
 license = "MIT"
 
-[dependencies]
+[workspace.dependencies]
 slint = "1.9"
