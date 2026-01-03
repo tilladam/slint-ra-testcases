@@ -9,7 +9,7 @@ This repository provides test cases for:
 1. **Profiling rust-analyzer** - Various sizes and complexity levels for performance testing
 2. **Testing proc-macro-srv** - Edge cases and patterns that exercise the macro server
 3. **Reproducing known issues** - Specifically:
-   - [#685](https://github.com/slint-ui/slint/issues/685) - Dash identifier parsing (`foo-bar` vs `foo - bar`)
+o  - [#685](https://github.com/slint-ui/slint/issues/685) - Dash identifier parsing (`foo-bar` vs `foo - bar`)
    - [#16512](https://github.com/rust-lang/rust-analyzer/issues/16512) - rust-analyzer performance with Slint
 
 ## Structure
@@ -58,10 +58,10 @@ cargo check
 
 ```bash
 # From rust-analyzer repository, point to this project
-rust-analyzer analysis-stats /path/to/slint-ra-testcases --source-root-only
+rust-analyzer analysis-stats /path/to/slint-ra-testcases
 
 # Or with more detail
-rust-analyzer analysis-stats /path/to/slint-ra-testcases --source-root-only -v
+rust-analyzer analysis-stats /path/to/slint-ra-testcases -v
 ```
 
 ### Test Specific Modules
